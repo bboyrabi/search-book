@@ -1,0 +1,50 @@
+.flex {
+    display: -ms-flexbox; /* IE */
+    display: flex;
+}
+
+.flex-equal-justified {
+    -ms-flex-pack: justify; /* IE */
+    justify-content: space-between;
+}
+/* 横並び */
+.flex-horizontal {
+    -ms-flex-direction: row; /* IE */
+    flex-direction: row;
+}
+.flex-center-justified {
+    -ms-flex-pack: center; /* IE */
+    justify-content: center;
+}
+/* 縦並び */
+.flex-vertical {
+    -ms-flex-direction: column; /* IE */
+    flex-direction: column;
+}
+.flex-center-justified {
+    -ms-flex-pack: center; /* IE */
+    justify-content: center;
+}
+
+/* header */
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    align-items: center;
+}
+header a{
+    padding-right: 1vw;
+    padding-left: 1vw;
+    color: rgb(211, 9, 9);
+    font-size: 4vh;
+}
+header h1{
+    font-size: 7vh;
+}
+
+footer{
+    background-color: black;
+    height: auto;
+}
